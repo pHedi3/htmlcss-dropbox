@@ -293,12 +293,9 @@ header .img-title img {
 /* leyout partner  */
 
 [class^="partner-"] {
-    border: 1px solid black;
     height: 400px;
     width: 50%;
 }
-
-
 
 .partner-img img {
     width: 100%;
@@ -550,12 +547,47 @@ header .img-title img {
 footer {
     margin-top: 100px;
     padding: 100px 0;
-    background-color: black;
+    background-color: rgb(22, 22, 22);
+    color:  #fff;
 }
 
 .nav-footer {
-    height: 500px;
-    border: 1px solid white;
 
 }
 
+footer [class^="nav-fotoer-"] {
+    width: 20%;
+}
+
+.nav-footer li:first-child {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.nav-footer li {
+    list-style: none;
+    margin: 10px;
+
+}
+
+.nav-fotoer-1 ul {
+    margin-bottom: 60px;
+
+}
+
+.nav-fotoer-1 .line {
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+.nav-fotoer-1 svg {
+    height: 18px;
+    line-height: 18px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.nav-fotoer-1 .select-leangueg {
+    font-size: 10px;
+    line-height: 18px;
+}
