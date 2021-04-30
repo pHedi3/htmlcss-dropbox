@@ -46,6 +46,10 @@ body {
     display: inline-block;
     width: 80%;
 }
+
+.line {
+    border-top: 1px solid lightgray;
+}
 /* edn utility class */
 
 /* leyout nav  */
@@ -188,8 +192,9 @@ header .img-title img {
 
 .price li {
     list-style: none;
-    margin: 10px 0;
-    vertical-align: text-top;
+    margin: 15px 0;
+    vertical-align: top;
+    line-height: 14px;
 }
 
 .price .option-1 {
@@ -206,7 +211,7 @@ header .img-title img {
 }
 
 .text-info-option-1, .text-info-option-2, .text-info-option-3 {
-    height: 600px;
+    height: 650px;
     border: 1px solid black;
  
 }
@@ -238,15 +243,15 @@ header .img-title img {
     margin-bottom: 10px;
 }
 
-.nutent img, .ntb img, .function img, .expleain-what img   {
-    height: 10px;;
+.expleain-for img, .expleain-what svg   {
+    height: 10px;
     margin-right: 5px;
     vertical-align: top;
     line-height: 14px;
 }
 
 .expleain-for .bottom-price {
-    margin-top: 30px;
+    margin-top: 6px;
     margin-bottom: 5px;
     text-align: center;
     padding: 5px 0;
@@ -255,8 +260,17 @@ header .img-title img {
 
 }
 
+.expleain-for .bottom-price.special {
+    margin-top: 44px;
+}
+
 .expleain-for .or-bottom-pirce {
     font-size: 10px;
+    margin-bottom: 30px;
+}
+
+.price .line.small {
+    width: 40px;
     margin-bottom: 30px;
 }
 
@@ -265,13 +279,12 @@ header .img-title img {
     font-weight: bold;
 }
 
-.what-do-you-optein, .expleain-what {
-    line-height: 14px;
-}
 
-.expleain-what img {
+.expleain-what svg {
     fill: blue;
 }
+
+
 
 /* cambia immagini in svg cosi da cambiare colore  */
 
