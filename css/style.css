@@ -412,7 +412,6 @@ header .img-title img {
 .bottom-enter {
     width: 100%;
     padding: 100px 0;
-    border: 1px solid black;
 }
 
 .team .link {
@@ -517,11 +516,12 @@ header .img-title img {
     color: purple;
     line-height: 40px;
     font-size: 40px;
+    margin-bottom: 0;
 }
 
 
 .botton-team {
-    line-height: 30px;
+    line-height: 20px;
     background-color: white;
     padding: 10px 20px;
 
