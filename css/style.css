@@ -239,9 +239,10 @@ header .img-title img {
 }
 
 .nutent img, .ntb img, .function img, .expleain-what img   {
-    height: 14px;;
+    height: 10px;;
     margin-right: 5px;
     vertical-align: top;
+    line-height: 14px;
 }
 
 .expleain-for .bottom-price {
@@ -262,6 +263,10 @@ header .img-title img {
 .expleain-for h6 {
     font-size: 18px;
     font-weight: bold;
+}
+
+.what-do-you-optein, .expleain-what {
+    line-height: 14px;
 }
 
 .expleain-what img {
