@@ -231,10 +231,11 @@ section h3 {
     font-size: 10px; 
     color: rgb(170, 169, 169);
     margin-bottom: 10px;
+    height: 25px;
 }
 
 .price .expleain-for ul:first-of-type {
-    margin-bottom: 50px;
+    height: 175px;
 }
 
 .price li {
