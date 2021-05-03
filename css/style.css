@@ -38,6 +38,13 @@ body {
     padding: 5px 10px;
 }
 
+section h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
 .input-near {
     display: inline-block;
     margin-right: 10px;
@@ -59,13 +66,10 @@ body {
 .nav-back {
     width: 100%;
     background-color: white;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding: 20px;
     position: fixed;
     z-index: 1000;
 }
-
-
 
 nav .nav-option {
     line-height: 30px;
@@ -75,12 +79,12 @@ nav .nav-option {
 
 nav .nav-right {
     text-align: right;
-
 }
 
 .nav-back .logo-nav {
     vertical-align: middle;
-    height: 30px;
+    height: 25px;
+    margin: 2.5px 0;
 }
 
 
@@ -88,23 +92,18 @@ nav li {
     margin-left: 10px;
     display: inline-block;
     list-style: none;
+    vertical-align: middle;
 }
 
 nav .nav-start {
+    vertical-align: middle;
     background-color: blue;
     color: #fff;
     font-size: 10px;
     line-height: 14px;
 }
 
-section h2 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
 
-
-/* problema del pixxel in più contrlla dopo */
 
 /* leyout header  */
 
@@ -561,7 +560,7 @@ header .img-title img {
 footer {
     margin-top: 100px;
     padding: 100px 0;
-    background-color: rgb(22, 22, 22);
+    background-color: black;
     color:  #fff;
 }
 
