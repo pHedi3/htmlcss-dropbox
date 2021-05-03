@@ -61,6 +61,8 @@ body {
     background-color: white;
     padding-top: 20px;
     padding-bottom: 10px;
+    position: fixed;
+    z-index: 1000;
 }
 
 
@@ -108,7 +110,7 @@ section h2 {
 
 header {
     background-color: lightskyblue;
-    padding: 20px 0 60px;
+    padding: 150px 0 60px;
 
 }
 
@@ -240,8 +242,8 @@ header .img-title img {
     margin-bottom: 10px;
 }
 
-.expleain-for img, .expleain-what img   {
-    height: 10px;
+.expleain-for img, .expleain-what svg  {
+    height: 14px;
     margin-right: 5px;
     vertical-align: top;
     line-height: 14px;
@@ -277,8 +279,13 @@ header .img-title img {
 }
 
 
-.expleain-what svg {
+.expleain-what svg path {
     fill: blue;
+}
+
+.expleain-what li div {
+    display: inline-block;
+    width: 90%;
 }
 
 .price .option-4-text {
@@ -349,8 +356,6 @@ header .img-title img {
 
 
 
-
-
 /* leyout info  */
 [class^="info-"] {
     height: 450px;
@@ -407,8 +412,6 @@ header .img-title img {
     height: 50%;
 }
 
-
-
 .bottom-enter {
     width: 100%;
     padding: 100px 0;
@@ -424,8 +427,7 @@ header .img-title img {
     position: relative;
 }
 
-.img-center svg {
-    fill: white;
+.img-center .normal-brend, .img-center #brend-special {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -434,11 +436,15 @@ header .img-title img {
 
 }
 
-.img-center svg path {
+.img-center #brend-special path {
+    filter: invert(100%);
+}
 
+.img-center svg.normal-brend, .img-center svg.normal-brend path {
     fill: white;
 }
-   
+
+
 
 .brend-1 {
     background-color: turquoise;
