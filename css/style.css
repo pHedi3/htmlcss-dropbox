@@ -58,7 +58,7 @@ section h2 {
 }
 
 .line {
-    border-top: 1px solid lightgray;
+    border-top: 1px solid #e4e4e4;
 }
 /* edn utility class */
 
@@ -97,7 +97,7 @@ nav li {
 
 nav .nav-start {
     vertical-align: middle;
-    background-color: blue;
+    background-color: #0061ff;
     color: #fff;
     font-size: 10px;
     line-height: 14px;
@@ -108,7 +108,7 @@ nav .nav-start {
 /* leyout header  */
 
 header {
-    background-color: lightskyblue;
+    background-color: #b4d0e7;
     padding: 150px 0 60px;
 
 }
@@ -137,7 +137,7 @@ header .header-bottom {
     display: inline-block;
     padding: 10px 15px;
     margin-top: 20px;
-    background-color: blue;
+    background-color: #0061ff;
      color: #fff;
 }
 
@@ -252,9 +252,9 @@ header .img-title img {
     margin-top: 6px;
     margin-bottom: 5px;
     text-align: center;
-    padding: 5px 0;
+    padding: 10px 0;
     color: white;
-    background-color: blue;
+    background-color: #0061ff;
 
 }
 
@@ -293,6 +293,10 @@ header .img-title img {
 
 .option-4 .bottom-price {
     width: 200px;
+}
+
+.option-4 p {
+    margin: 15px 0;
 }
 
 
@@ -431,7 +435,7 @@ header .img-title img {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    height: 40px;
+    height: 80px;
 
 }
 
@@ -443,46 +447,44 @@ header .img-title img {
     fill: white;
 }
 
-
-
 .brend-1 {
-    background-color: turquoise;
+    background-color: #a2d39b;
 }
 
 .brend-2 {
-    background-color: brown;
+    background-color: #61082b;
 }
 
 .brend-3 {
-    background-color: lightskyblue;
+    background-color: #0093ce;
 }
 
 .brend-4 {
-    background-color: tomato;
+    background-color: #ff1c1c;
 }
 
 .brend-5 {
-    background-color: red;
+    background-color: #d5001f;
 }
 
 .brend-6 {
-    background-color: lightsteelblue;
+    background-color: #b4d0e7;
 }
 
 .brend-7 {
-    background-color: blue;
+    background-color: #0d2481;
 }
 
 .brend-8 {
-    background-color: yellow;
+    background-color: #ffd830;
 }
 
 .middle-brend {
-    background-color: rgb(218, 218, 218);
+    background-color: #f5f5f5;
 }
 
 .team .bottom-enter {
-    background-color: lightsteelblue;
+    background-color: #b4d0e7;
 }
 
 .center-text {
@@ -506,7 +508,6 @@ header .img-title img {
 
 .middle-brend .line {
     width: 20px;
-    border-top: 1px solid rgb(160, 160, 160);
     margin-bottom: 30px;
 }
 
@@ -516,7 +517,7 @@ header .img-title img {
 }
 
 .bottom-enter h2 {
-    color: purple;
+    color: #61082b;
     line-height: 40px;
     font-size: 40px;
     margin-bottom: 0;
