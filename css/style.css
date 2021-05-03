@@ -45,13 +45,6 @@ section h2 {
 }
 
 
-.input-near {
-    display: inline-block;
-    margin-right: 10px;
-    text-align: 16px;
-    font-size: 16px;
-}
-
 .display-inline {
     display: inline-block;
     width: 80%;
@@ -185,7 +178,7 @@ header .img-title img {
 
 .price .option-4 {
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid lightgray;
 }
 
 .price li {
@@ -194,6 +187,21 @@ header .img-title img {
     vertical-align: top;
     line-height: 14px;
 }
+
+
+.price .input-near {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    text-align: 16px;
+    font-size: 16px;
+}
+
+.price .input-near input {
+    margin-right: 5px;
+ 
+}
+
 
 .price .option-1 {
     padding-right: 10px;
@@ -210,13 +218,13 @@ header .img-title img {
 
 .text-info-option-1, .text-info-option-2, .text-info-option-3 {
     height: 700px;
-    border: 1px solid black;
+    border: 1px solid lightgray;
  
 }
 
 .price .for {
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
     padding: 5px 0;
 }
 
@@ -249,7 +257,7 @@ header .img-title img {
 }
 
 .price .bottom-price {
-    margin-top: 6px;
+    margin-top: 40px;
     margin-bottom: 5px;
     text-align: center;
     padding: 10px 0;
@@ -258,9 +266,6 @@ header .img-title img {
 
 }
 
-.expleain-for .bottom-price.special {
-    margin-top: 44px;
-}
 
 .expleain-for .or-bottom-pirce {
     font-size: 10px;
