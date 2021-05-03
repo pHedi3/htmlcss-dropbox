@@ -539,11 +539,21 @@ header .img-title img {
 /* leyout FAQ  */
 .question, .posibiliti  {
     line-height: 14px;
-    margin: 20px 0;
+    padding: 20px 0;
 }
 
 .posibiliti.special {
     line-height: 28px;
+}
+
+.faq ul li {
+    list-style: none;
+    font-weight: 600;
+    border-top: 1px solid black;
+}
+
+.faq ul li:last-child {
+    border-bottom: 1px solid black;
 }
 
 
