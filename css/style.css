@@ -8,6 +8,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px ;
+    color: #333;
 }
 
 .container {
@@ -34,16 +35,6 @@ body {
     float: right;
 }
 
-.bottom {
-    padding: 5px 10px;
-}
-
-section h2 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
 
 .display-inline {
     display: inline-block;
@@ -66,7 +57,6 @@ section h2 {
 
 nav .nav-option {
     line-height: 30px;
-    color: #333;
     font-weight: 600;
 }
 
@@ -82,7 +72,7 @@ nav .nav-right {
 
 
 nav li {
-    margin-left: 10px;
+    margin-left: 20px;
     display: inline-block;
     list-style: none;
     vertical-align: middle;
@@ -92,6 +82,7 @@ nav .nav-start {
     vertical-align: middle;
     background-color: #0061ff;
     color: #fff;
+    padding: 5px 10px;
     font-size: 10px;
     line-height: 14px;
 }
@@ -122,9 +113,6 @@ header h1 {
     font-weight: 800;
 }
 
-header p {
-    color: #333;
-}
 
 header .header-bottom {
     display: inline-block;
@@ -142,11 +130,11 @@ header .explein-bottom {
 header .row-down {
     margin-top: 20px;
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 1000;
 
 }
 
-.ancor-img {
+header .ancor-img {
     position: relative;
 }
 
@@ -159,13 +147,23 @@ header .img-title img {
 }
 
 
-
 /* leyout main  */
 .price, .partner, .info, .team, .faq {
     margin-top: 200px;
 }
 
+section h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
 
+section h3 {
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 10px;
+
+}
 
 /* leyout price  */
 
@@ -181,14 +179,6 @@ header .img-title img {
     border: 1px solid lightgray;
 }
 
-.price li {
-    list-style: none;
-    margin: 15px 0;
-    vertical-align: top;
-    line-height: 14px;
-}
-
-
 .price .input-near {
     display: inline-block;
     margin-right: 10px;
@@ -201,7 +191,6 @@ header .img-title img {
     margin-right: 5px;
  
 }
-
 
 .price .option-1 {
     padding-right: 10px;
@@ -217,7 +206,7 @@ header .img-title img {
 }
 
 .text-info-option-1, .text-info-option-2, .text-info-option-3 {
-    height: 700px;
+    height: 750px;
     border: 1px solid lightgray;
  
 }
@@ -225,18 +214,13 @@ header .img-title img {
 .price .for {
     text-align: center;
     border-bottom: 1px solid lightgray;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 .price .expleain-for {
     padding: 15px;
 }
 
-.price h5 {
-    font-size: 26px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
 
 .price .price-option {
     font-size: 20px;
@@ -249,23 +233,33 @@ header .img-title img {
     margin-bottom: 10px;
 }
 
+.price .expleain-for ul:first-of-type {
+    margin-bottom: 50px;
+}
+
+.price li {
+    list-style: none;
+    margin: 20px 0;
+    vertical-align: top;
+    line-height: 14px;
+}
+
+
 .expleain-for img, .expleain-what svg  {
     height: 14px;
-    margin-right: 5px;
+    margin-right: 10px;
     vertical-align: top;
     line-height: 14px;
 }
 
 .price .bottom-price {
-    margin-top: 40px;
     margin-bottom: 5px;
     text-align: center;
     padding: 10px 0;
-    color: white;
+    color: #fff;
     background-color: #0061ff;
 
 }
-
 
 .expleain-for .or-bottom-pirce {
     font-size: 10px;
@@ -280,6 +274,7 @@ header .img-title img {
 .price h6 {
     font-size: 18px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 
@@ -287,10 +282,6 @@ header .img-title img {
     fill: blue;
 }
 
-.expleain-what li div {
-    display: inline-block;
-    width: 90%;
-}
 
 .price .option-4-text {
     padding: 20px;
@@ -335,13 +326,6 @@ header .img-title img {
 }
 
 
-.partner-text h3 {
-    font-size: 26px;
-    font-weight: bold;
-    margin-bottom: 10px;
-
-}
-
 .partner-text p {
     font-size: 16px;
     margin-bottom: 10px;
@@ -352,8 +336,6 @@ header .img-title img {
     text-decoration: none;
     color: #333;
     font-size: 16px;
-    margin-bottom: 10px;
-
 }
 
 .partner-text .bottom-partner {
@@ -368,40 +350,29 @@ header .img-title img {
 [class^="info-"] {
     height: 450px;
     width: calc(100%/3);
+    padding-top: 20px;
 }
 
 .info .info-1, .info .info-4 {
     padding-right: 20px ;
-    padding-top: 20px;
 }
 
 .info .info-2, .info .info-5 {
-    padding: 20px 10px ;
+    padding-right:10px;
+    padding-left:10px;
 }
 
 .info .info-3, .info .info-6 {
     padding-left: 20px ;
-    padding-top: 20px;
 }
 
-.img-info {
+.info .img-info {
     text-align: center;
 }
-
 
 .info .img-info img {
     width: 70%;
 }
-
-.info .text-info h3 {
-    font-size: 26px;
-    font-weight: bold;
-    margin-bottom: 10px;
-
-
-}
-
-
 
 
 /* leyout team  */
@@ -518,37 +489,38 @@ header .img-title img {
 
 .middle-brend p {
     margin-bottom: 30px;
-
 }
 
 .bottom-enter h2 {
     color: #61082b;
     line-height: 40px;
-    font-size: 40px;
     margin-bottom: 0;
 }
 
 
-.botton-team {
+.team .botton-team {
     line-height: 20px;
     background-color: white;
     padding: 10px 20px;
 
 }
 
-.botton-team  a {
+.team .botton-team  a {
     text-decoration: none;
     color: #333;
 
 }
+
+
 /* leyout FAQ  */
-.question, .posibiliti  {
+.faq .question, .faq .posibiliti  {
     line-height: 14px;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
-.posibiliti.special {
+.faq .posibiliti-special {
     line-height: 28px;
+    padding: 30px 0;
 }
 
 .faq ul li {
@@ -570,8 +542,6 @@ footer {
     color:  #fff;
 }
 
-
-
 footer [class^="nav-fotoer-"] {
     width: 20%;
 }
@@ -584,13 +554,12 @@ footer [class^="nav-fotoer-"] {
 
 .nav-footer li {
     list-style: none;
-    margin: 10px;
-
+    margin: 15px 0;
+    font-size: 12px;
 }
 
 .nav-fotoer-1 ul {
     margin-bottom: 60px;
-
 }
 
 .nav-fotoer-1 .line {
@@ -605,6 +574,7 @@ footer [class^="nav-fotoer-"] {
     margin-right: 5px;
 }
 .nav-fotoer-1 .select-leangueg {
+    vertical-align: middle;
     font-size: 10px;
     line-height: 18px;
 }
